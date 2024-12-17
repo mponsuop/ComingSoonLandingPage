@@ -1,0 +1,134 @@
+body, html {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+button {
+    background-color: #f18787;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e76e6e;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between elements */
+    position: relative;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.input-group button {
+    background-color: #f18787;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.input-group button:hover {
+    background-color: #e76e6e;
+}
+
+/* Error Icon */
+.error-icon {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 60px; /* Aligns the icon to the left of the button */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+    /* Top Left Logo */
+    .logo {
+        position: absolute; /* Ensures positioning relative to the viewport */
+        top: 20px; /* Distance from the top of the viewport */
+        left: 20px; /* Distance from the left of the viewport */
+        z-index: 10; /* Ensures it appears above other elements */
+    }
+
+    .logo img {
+        height: 50px; /* Adjust the logo size */
+        width: auto;
+        display: block; /* Prevent any unwanted inline spacing */
+    }
+    /* Left Section: Text and Form */
+    .text-section {
+        flex: 3; /* 60% width */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 4rem;
+        background-color: #f0e9e9; /* Light pink background */
+        text-align: left;
+    }
+
+    .image-section {
+        flex: 1;
+    }
+}

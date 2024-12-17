@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/ComingSoonLandingPage.props" />
+</Project>

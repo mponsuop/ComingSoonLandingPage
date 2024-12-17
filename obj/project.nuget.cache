@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rfU2wfbf07aMga7zkt38dvpJJfDSd2EE9L8LNl/TWytnreWcvU9FBxOCcODbXH4MuqYnNWhX7xCoxCj6R8P6hQ==",
+  "dgSpecHash": "3GwF4WU8tpwIXtEvJ8tX/9CJ0OGVFamqi8deciMJV100+twO6nOKQHWBuRm22UL4viVNJT6UuuNRrKV3HvPV6Q==",
   "success": true,
   "projectFilePath": "/Users/llucopons/ComingSoonLandingPage/ComingSoonLandingPage.csproj",
   "expectedPackageFiles": [
@@ -29,11 +29,10 @@
     "/Users/llucopons/.nuget/packages/microsoft.jsinterop/8.0.2/microsoft.jsinterop.8.0.2.nupkg.sha512",
     "/Users/llucopons/.nuget/packages/microsoft.jsinterop.webassembly/8.0.2/microsoft.jsinterop.webassembly.8.0.2.nupkg.sha512",
     "/Users/llucopons/.nuget/packages/microsoft.net.illink.tasks/8.0.2/microsoft.net.illink.tasks.8.0.2.nupkg.sha512",
-    "/Users/llucopons/.nuget/packages/microsoft.net.sdk.webassembly.pack/8.0.2/microsoft.net.sdk.webassembly.pack.8.0.2.nupkg.sha512",
+    "/Users/llucopons/.nuget/packages/microsoft.net.sdk.webassembly.pack/8.0.11/microsoft.net.sdk.webassembly.pack.8.0.11.nupkg.sha512",
     "/Users/llucopons/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
     "/Users/llucopons/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
-    "/Users/llucopons/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
-    "/Users/llucopons/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.2/microsoft.netcore.app.runtime.mono.browser-wasm.8.0.2.nupkg.sha512"
+    "/Users/llucopons/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

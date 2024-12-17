@@ -1,0 +1,1 @@
+/Users/llucopons/ComingSoonLandingPage/bin/Release/net8.0/publish/web.config
