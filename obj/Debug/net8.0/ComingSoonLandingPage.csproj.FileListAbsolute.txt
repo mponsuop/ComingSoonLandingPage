@@ -615,6 +615,7 @@
 /Users/llucopons/ComingSoonLandingPage/obj/Debug/net8.0/ComingSoonLandingPage.AssemblyInfo.cs
 /Users/llucopons/ComingSoonLandingPage/obj/Debug/net8.0/ComingSoonLandingPage.csproj.CoreCompileInputs.cache
 /Users/llucopons/ComingSoonLandingPage/obj/Debug/net8.0/ComingSoonLandingPage.MvcApplicationPartsAssemblyInfo.cache
+/Users/llucopons/ComingSoonLandingPage/obj/Debug/net8.0/ComingSoonLandingPage.sourcelink.json
 /Users/llucopons/ComingSoonLandingPage/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Authorization.wasm
 /Users/llucopons/ComingSoonLandingPage/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.wasm
 /Users/llucopons/ComingSoonLandingPage/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.Components.Forms.wasm

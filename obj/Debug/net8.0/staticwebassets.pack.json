@@ -25,12 +25,52 @@
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
     },
     {
+      "Id": "/Users/llucopons/ComingSoonLandingPage/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
       "Id": "/Users/llucopons/ComingSoonLandingPage/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/Users/llucopons/ComingSoonLandingPage/wwwroot/favicon.png.old.png",
+      "PackagePath": "staticwebassets/favicon.png.old.png"
+    },
+    {
       "Id": "/Users/llucopons/ComingSoonLandingPage/wwwroot/icon-192.png",
       "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/llucopons/ComingSoonLandingPage/wwwroot/images/bg-pattern-desktop.svg",
+      "PackagePath": "staticwebassets/images/bg-pattern-desktop.svg"
+    },
+    {
+      "Id": "/Users/llucopons/ComingSoonLandingPage/wwwroot/images/desktop-preview.jpg",
+      "PackagePath": "staticwebassets/images/desktop-preview.jpg"
+    },
+    {
+      "Id": "/Users/llucopons/ComingSoonLandingPage/wwwroot/images/favicon-32x32.png",
+      "PackagePath": "staticwebassets/images/favicon-32x32.png"
+    },
+    {
+      "Id": "/Users/llucopons/ComingSoonLandingPage/wwwroot/images/hero-desktop.jpg",
+      "PackagePath": "staticwebassets/images/hero-desktop.jpg"
+    },
+    {
+      "Id": "/Users/llucopons/ComingSoonLandingPage/wwwroot/images/hero-mobile.jpg",
+      "PackagePath": "staticwebassets/images/hero-mobile.jpg"
+    },
+    {
+      "Id": "/Users/llucopons/ComingSoonLandingPage/wwwroot/images/icon-arrow.svg",
+      "PackagePath": "staticwebassets/images/icon-arrow.svg"
+    },
+    {
+      "Id": "/Users/llucopons/ComingSoonLandingPage/wwwroot/images/icon-error.svg",
+      "PackagePath": "staticwebassets/images/icon-error.svg"
+    },
+    {
+      "Id": "/Users/llucopons/ComingSoonLandingPage/wwwroot/images/logo.svg",
+      "PackagePath": "staticwebassets/images/logo.svg"
     },
     {
       "Id": "/Users/llucopons/ComingSoonLandingPage/wwwroot/index.html",

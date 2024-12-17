@@ -1,7 +1,46 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<div class="container">
+    <!-- Top Left Logo -->
+    <div class="logo">
+        <img src="images/logo.svg" alt="Logo" />
+    </div>
 
-<h1>Hello, world!</h1>
+    <!-- Main Content -->
+    <div class="text-section">
+        <h1>WE'RE <br /> COMING <br /> SOON</h1>
+        <p>
+            Hello fellow shoppers! We’re currently building our new fashion store. Add your email below
+            to stay up-to-date with announcements and our launch deals.
+        </p>
+        <div class="input-group">
+            <input @bind="Email" placeholder="Email Address" />
+            <button @onclick="OnSubmit">
+                <img src="images/icon-arrow.svg" alt="Submit" class="button-icon" />
+            </button>
+            @if (isInvalidEmail)
+            {
+                <img src="images/icon-error.svg" alt="Error" class="error-icon" />
+            }
+        </div>
+        @if (isInvalidEmail)
+        {
+            <p class="error">Please provide a valid email</p>
+        }
+    </div>
 
-Welcome to your new app.
+    <!-- Right Section: Image -->
+    <div class="image-section">
+        <img src="images/hero-desktop.jpg" alt="Coming Soon Image" />
+    </div>
+</div>
+
+@code {
+    private string Email = string.Empty;
+    private bool isInvalidEmail = false;
+
+    private void OnSubmit()
+    {
+        isInvalidEmail = !Email.Contains("@");
+    }
+}

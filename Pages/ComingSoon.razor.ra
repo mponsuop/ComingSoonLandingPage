@@ -1,0 +1,33 @@
+@page "/"
+<div class="container">
+    <div class="content">
+        <div class="text-section">
+            <h1>WE'RE <br /> COMING <br /> SOON</h1>
+            <p>
+                Hello fellow shoppers! We’re currently building our new fashion store. Add your email below to
+                stay up-to-date with announcements and our launch deals.
+            </p>
+            <div class="input-group">
+                <input @bind="Email" placeholder="Email Address" />
+                <button @onclick="OnSubmit">→</button>
+            </div>
+            @if (isInvalidEmail)
+            {
+                <p class="error">Please provide a valid email</p>
+            }
+        </div>
+        <div class="image-section">
+            <img src="images/desktop-preview.jpg" alt="Coming Soon Image" />
+        </div>
+    </div>
+</div>
+
+@code {
+    private string Email = string.Empty;
+    private bool isInvalidEmail = false;
+
+    private void OnSubmit()
+    {
+        isInvalidEmail = !Email.Contains("@");
+    }
+}
